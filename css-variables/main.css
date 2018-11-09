@@ -1,0 +1,52 @@
+:root {
+    --border: 10px;
+    --blur: 0px;
+    --base: #19B5FE; 
+}
+
+
+/*
+misc styles, nothing to do with CSS variables
+*/
+
+.hl{
+    color: var(--base);
+}
+
+body {
+    text-align: center;
+    background: #193549;
+    color: white;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+p{
+    font-size: 17px;
+}
+p a{
+    color: white;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 180;
+    font-size: 17px;
+    text-decoration: none;
+}
+p a:hover{
+    text-decoration: underline;
+}
+
+.controls {
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+input {
+    width: 100px;
+}
+
+img {
+    padding: var(--border);
+    filter: blur(var(--blur));
+    background: var(--base);
+}
