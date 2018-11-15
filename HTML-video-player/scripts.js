@@ -54,6 +54,8 @@ video.addEventListener('timeupdate', manageProgressChange);
 playButton.addEventListener('click', toggleVideo);
 
 ranges.forEach(range => range.addEventListener("mousemove", manageRangeChange));
+ranges.forEach(range => range.addEventListener("click", manageRangeChange));
+
 
 skipButtons.forEach(button => button.addEventListener('click', skip));
 
