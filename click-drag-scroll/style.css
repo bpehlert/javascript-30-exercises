@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  background: url("https://source.unsplash.com/NFs6dRTBgaM/2000x2000") fixed;
+  /* background: url("https://source.unsplash.com/NFs6dRTBgaM/2000x2000") fixed; */
   background-size: cover;
 }
 
@@ -24,7 +24,7 @@ body {
   height: 800px;
   padding: 100px;
   width: 100%;
-  border: 1px solid white;
+  border: 1px solid black;
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
@@ -40,7 +40,7 @@ body {
 }
 
 .items.active {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(89, 89, 89, 0.3);
   cursor: grabbing;
   cursor: -webkit-grabbing;
   transform: scale(1);
