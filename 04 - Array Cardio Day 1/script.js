@@ -118,9 +118,13 @@ console.table(oldest);
 // Sort the people alphabetically by last name
 
 const alphabetically = people.sort((a, b) => {
-  const names = a.split(", ");
-  console.log(names);
+  aName = a.split(", ");
+  bName = b.split(", ");
+  //   console.log(aName[0], bName[0]);
+  return aName[0] < bName[0] ? -1 : 1;
 });
+
+console.log(alphabetically);
 
 // 8. Reduce Exercise
 // Sum up the instances of each of these
@@ -149,4 +153,4 @@ const count = data.reduce((obj, item) => {
   return obj;
 }, {});
 
-console.log(count);
+// console.log(count);
